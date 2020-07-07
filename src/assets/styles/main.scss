@@ -1,0 +1,9 @@
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/layout';
+@import 'utils/fonts';
+
+.simple-class-name {
+	width: 150px;
+	height: 150px;
+}

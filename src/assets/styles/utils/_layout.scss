@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: $font-primary-regular;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+	&:visited {
+		text-decoration: none;
+	}
+}
+h1 {
+	color: $cl-red;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	@include media($desktop) {
+		width: 90vw;
+	}
+	@include media($small) {
+		width: 95vw;
+	}
+}
